@@ -8,7 +8,7 @@ class Student
     new_student.name = row[1]
     new_student.grade = row[0]
     new_student
-    binding.pry
+    # binding.pry
   end
 
   def self.all
